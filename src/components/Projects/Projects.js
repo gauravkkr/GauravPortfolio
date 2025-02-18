@@ -30,12 +30,12 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="My Portfolio"
-              description="CalculatorApp is an Android Application using Android Studio. It is written using Java and Xml . User can able to do basic Calculation using this apps. It will be helpful to user who needs help in Calculation."
+              description="My portfolio website is built using React, showcasing my skills, projects, and experience in an interactive and responsive designs and added clickable  links to my socials like Linkedin,Facebook and github etc."
               ghLink="https://github.com/gauravkkr/GauravPortfolio"
             />
           </Col>
         </Row>
-      </Container>
+      </Container>n
     </Container>
   );
 }
