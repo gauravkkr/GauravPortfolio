@@ -21,7 +21,7 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="CalculatorApp"
-              description="CalculatorApp is an Android Application using Android Studio. It is written using Java and Xml . User can able to do basic Calculation using this apps. It will be helpful to user who needs help in Calculation."
+              description="CalculatorApp is an Android AppliI developed a Basic Calculator App that performs essential arithmetic operations such as addition, subtraction, multiplication, and division. The app features a clean and user-friendly interface, allowing users to input numbers and view results with ease. Built using Java and XML for Android , it handles input validation and displays real-time results, making everyday calculations quick and efficient. This project helped me strengthen my foundational programming skills and understand UI/UX design principlescation using Android Studio. It is written using Java and Xml . User can able to do basic Calculation using this apps. It will be helpful to user who needs help in Calculation."
               ghLink="https://github.com/gauravkkr/CAlculatorApp"
             />
           </Col>
