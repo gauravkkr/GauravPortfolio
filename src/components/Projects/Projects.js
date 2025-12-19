@@ -3,8 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import Portfolio from "../../Assets/Projects/Portfolio.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import Calculator from "../../Assets/Projects/Calculator.png";
 
 
 
@@ -22,11 +20,10 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Calculator}
               isBlog={false}
-              title="CalculatorApp"
-              description="CalculatorApp is an Android AppliI developed a Basic Calculator App that performs essential arithmetic operations such as addition, subtraction, multiplication, and division. The app features a clean and user-friendly interface, allowing users to input numbers and view results with ease. Built using Java and XML for Android , it handles input validation and displays real-time results, making everyday calculations quick and efficient. This project helped me strengthen my foundational programming skills and understand UI/UX design principlescation using Android Studio. It is written using Java and Xml . User can able to do basic Calculation using this apps. It will be helpful to user who needs help in Calculation."
-              ghLink="https://github.com/gauravkkr/CAlculatorApp"
+              title="Library_Management_System"
+              description="Developed a Library Management System to manage book inventory, issue and return records, and user data efficiently. The system supports core operations such as adding, updating, searching, and tracking books while ensuring data consistency. Designed with a focus on simplicity, usability, and maintainable code to streamline day-to-day library operations."
+              ghLink="https://github.com/gauravkkr/Library_Management_System"
             />
           </Col> 
           <Col md={4} className="project-card">
@@ -37,6 +34,24 @@ function Projects() {
               description="My portfolio website is built using React, showcasing my skills, projects, and experience in an interactive and responsive designs and added clickable  links to my socials like Linkedin,Facebook and github etc."
               ghLink="https://github.com/gauravkkr/GauravPortfolio"
               demoLink="https://gauravtiuportfolio.netlify.app/"
+            />
+          </Col>
+        </Row>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              isBlog={false}
+              title="RxVision"
+              description="RxVision is an intelligent application designed to recognize and interpret doctors' handwritten prescriptions from uploaded medical reports. The system processes scanned or photographed prescriptions to extract readable text, improving accuracy and accessibility of medical information. It aims to reduce prescription errors and simplify the understanding of handwritten medical notes using automated text recognition techniques."
+              ghLink="https://github.com/gauravkkr/RxVision"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              isBlog={false}
+              title="College Connect"
+              description="Developed a web-based College Marketplace platform that enables students to buy and sell items within their campus community. The application focuses on secure listings, easy navigation, and a user-friendly interface to simplify peer-to-peer transactions."
+              ghLink="https://github.com/gauravkkr/CollegeConnect"
             />
           </Col>
         </Row>
